@@ -1,0 +1,25 @@
+@def_quote [' ']
+
+@@V config
+url_root = {
+	['https://github.com/mr-moai-2016/znk_rep/releases/download/v1.0.0']
+}
+@@.
+
+@@V custom_boy_UA
+rev         = ['20230119_010100']
+rrkx        = ['1.0']
+rrk_api_ver = ['1.0']
+abi_type    = ['common']
+md5         = ['']
+filename    = ['custom_boy_UA-20230119_010100.zip']
+@@.
+
+@@V libressl-android-arm64-v8a
+rev         = ['20230115_132300']
+rrkx        = ['1.0']
+rrk_api_ver = ['1.0']
+abi_type    = ['android-arm64-v8a']
+md5         = ['']
+filename    = ['libressl-android-arm64-v8a-20230115_132300.zip']
+@@.
