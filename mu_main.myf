@@ -1,0 +1,70 @@
+@def_quote [' ']
+
+@@V config
+url_root = {
+	['https://github.com/mr-moai-2016/znk_rep/releases/download/v1.0.0']
+}
+@@.
+
+@@V common
+rev         = ['2.3.0']
+rrkx        = ['1.0']
+rrk_api_ver = ['1.0']
+abi_type    = ['common']
+md5         = ['']
+filename    = ['moai-v2.3-common.zip']
+@@.
+
+@@V windows
+rev         = ['2.3.0']
+rrkx        = ['1.0']
+rrk_api_ver = ['1.0']
+abi_type    = ['windows']
+md5         = ['']
+filename    = ['moai-v2.3-bin-windows.zip']
+@@.
+
+@@V cygwin
+rev         = ['2.3.0']
+rrkx        = ['1.0']
+rrk_api_ver = ['1.0']
+abi_type    = ['cygwin']
+md5         = ['']
+filename    = ['moai-v2.3-bin-cygwin.zip']
+@@.
+
+@@V linux
+rev         = ['2.3.0']
+rrkx        = ['1.0']
+rrk_api_ver = ['1.0']
+abi_type    = ['linux']
+md5         = ['']
+filename    = ['moai-v2.3-bin-linux.zip']
+@@.
+
+@@V bsd
+rev         = ['2.3.0']
+rrkx        = ['1.0']
+rrk_api_ver = ['1.0']
+abi_type    = ['bsd']
+md5         = ['']
+filename    = ['moai-v2.3-bin-bsd.zip']
+@@.
+
+@@V android
+rev         = ['2.3.0']
+rrkx        = ['1.0']
+rrk_api_ver = ['1.0']
+abi_type    = ['android']
+md5         = ['']
+filename    = ['moai-v2.3-bin-android.zip']
+@@.
+
+@@V darwin
+rev         = ['2.3.0']
+rrkx        = ['1.0']
+rrk_api_ver = ['1.0']
+abi_type    = ['darwin']
+md5         = ['']
+filename    = ['moai-v2.3-bin-darwin.zip']
+@@.
