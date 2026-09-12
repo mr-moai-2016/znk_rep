@@ -7,12 +7,12 @@ url_root = {
 @@.
 
 @@V custom_boy_UA
-rev         = ['20230119_010100']
+rev         = ['20260912_080000']
 rrkx        = ['1.0']
 rrk_api_ver = ['1.0']
 abi_type    = ['common']
 md5         = ['']
-filename    = ['custom_boy_UA-20230119_010100.zip']
+filename    = ['custom_boy_UA-20260912_080000.zip']
 @@.
 
 @@V libressl-android-arm64-v8a
