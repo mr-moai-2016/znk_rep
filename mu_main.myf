@@ -10,7 +10,7 @@ url_root = {
 rev         = ['2.3.0']
 rrkx        = ['1.0']
 rrk_api_ver = ['1.0']
-abi_type    = ['common']
+inst_os     = {}
 md5         = ['']
 filename    = ['moai-v2.3-common.zip']
 @@.
@@ -19,7 +19,7 @@ filename    = ['moai-v2.3-common.zip']
 rev         = ['2.3.0']
 rrkx        = ['1.0']
 rrk_api_ver = ['1.0']
-abi_type    = ['windows']
+inst_os     = { ['windows'] }
 md5         = ['']
 filename    = ['moai-v2.3-bin-windows.zip']
 @@.
@@ -28,7 +28,7 @@ filename    = ['moai-v2.3-bin-windows.zip']
 rev         = ['2.3.0']
 rrkx        = ['1.0']
 rrk_api_ver = ['1.0']
-abi_type    = ['cygwin']
+inst_os     = { ['cygwin'] }
 md5         = ['']
 filename    = ['moai-v2.3-bin-cygwin.zip']
 @@.
@@ -37,16 +37,25 @@ filename    = ['moai-v2.3-bin-cygwin.zip']
 rev         = ['2.3.0']
 rrkx        = ['1.0']
 rrk_api_ver = ['1.0']
-abi_type    = ['linux']
+inst_os     = { ['linux'] ['linux_musl'] }
 md5         = ['']
 filename    = ['moai-v2.3-bin-linux.zip']
+@@.
+
+@@V linux_alpine
+rev         = ['2.3.0']
+rrkx        = ['1.0']
+rrk_api_ver = ['1.0']
+inst_os     = { ['linux_alpine'] }
+md5         = ['']
+filename    = ['moai-v2.3-bin-linux_alpine.zip']
 @@.
 
 @@V bsd
 rev         = ['2.3.0']
 rrkx        = ['1.0']
 rrk_api_ver = ['1.0']
-abi_type    = ['bsd']
+inst_os     = { ['freebsd'] ['netbsd'] ['dragonfly'] ['openbsd'] }
 md5         = ['']
 filename    = ['moai-v2.3-bin-bsd.zip']
 @@.
@@ -55,7 +64,7 @@ filename    = ['moai-v2.3-bin-bsd.zip']
 rev         = ['2.3.0']
 rrkx        = ['1.0']
 rrk_api_ver = ['1.0']
-abi_type    = ['android']
+inst_os     = { ['android'] }
 md5         = ['']
 filename    = ['moai-v2.3-bin-android.zip']
 @@.
@@ -64,7 +73,7 @@ filename    = ['moai-v2.3-bin-android.zip']
 rev         = ['2.3.0']
 rrkx        = ['1.0']
 rrk_api_ver = ['1.0']
-abi_type    = ['darwin']
+inst_os     = { ['darwin*'] }
 md5         = ['']
 filename    = ['moai-v2.3-bin-darwin.zip']
 @@.
